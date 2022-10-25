@@ -5,7 +5,6 @@ public class Sprite extends Bebida {
         super(s);
     }
     public String beber() {
-        String sabor = super.beber();
-        return sabor + "sprite";
+        return "sprite";
     }
 }

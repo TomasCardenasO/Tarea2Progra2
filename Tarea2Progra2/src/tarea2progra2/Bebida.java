@@ -2,13 +2,11 @@ package tarea2progra2;
 
 public abstract class Bebida {
     private int serie;
-    public Bebida(int s) {
-        serie = s;
+    public Bebida(int numSerie) {
+        serie = numSerie;
     }
     public int getSerie() {
         return serie;
     }
-    public String beber() {
-        return "sabor: ";
-    }
+    public abstract String beber();
 }

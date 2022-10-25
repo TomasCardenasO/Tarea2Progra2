@@ -5,7 +5,6 @@ public class CocaCola extends Bebida {
         super(s);
     }
     public String beber() {
-        String sabor = super.beber();
-        return sabor + "cocacola";
+        return "cocacola";
     }
 }
