@@ -8,4 +8,8 @@ public abstract class Moneda {
         return this.toString();
     }
     public abstract int getValor();
+    
+    public String toString() {
+        return "Valor: " + this.getValor() + ", " + "Serie: " + super.toString();
+    }
 }
